@@ -1,0 +1,30 @@
+[33mcommit 7e515a2df24f646c2b59ddf99eb7c6f8dc930bc8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Lim Yixiang <limyixiang2@gmail.com>
+Date:   Tue Apr 8 00:03:52 2025 +0800
+
+    Update .gitignore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex 0d3f66e..44d014a 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1,9 +1,9 @@[m
+ *.csv[m
+[31m-./data[m
+[31m-./tmp_trainer[m
+[31m-./bert/oversampled_datasets[m
+[31m-./bert/augmented_dataset[m
+[31m-./bert/models[m
+[31m-./bert/results[m
+[31m-./bert/without_icl[m
+[31m-./project.pdf[m
+\ No newline at end of file[m
+[32m+[m[32mdata/[m
+[32m+[m[32mtmp_trainer/[m
+[32m+[m[32mbert/oversampled_datasets/[m
+[32m+[m[32mbert/augmented_dataset/[m
+[32m+[m[32mbert/models/[m
+[32m+[m[32mbert/results/[m
+[32m+[m[32mbert/without_icl/[m
+[32m+[m[32mproject.pdf[m
+\ No newline at end of file[m

@@ -1,0 +1,9 @@
+*.csv
+data/
+tmp_trainer/
+bert/oversampled_datasets/
+bert/augmented_dataset/
+bert/models/
+bert/results/
+bert/without_icl/
+project.pdf
