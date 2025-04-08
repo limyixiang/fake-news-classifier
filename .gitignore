@@ -1,4 +1,5 @@
 *.csv
+venv/
 data/
 tmp_trainer/
 bert/oversampled_datasets/
