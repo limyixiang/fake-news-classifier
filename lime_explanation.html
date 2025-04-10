@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divW12CYMQUWBFMVP7"></div>
+        <div class="lime top_div" id="top_div8XEEHG3MX2FMWBA"></div>
         
         <script>
-        var top_div = d3.select('#top_divW12CYMQUWBFMVP7').classed('lime top_div', true);
+        var top_div = d3.select('#top_div8XEEHG3MX2FMWBA').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.5001539587974548, 0.49984610080718994]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.5001543760299683, 0.4998456537723541]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["tweet", 0.15756409706398128], ["singapore", -0.10437633390783253], ["university", -0.0602480373974443], ["of", -0.06006218706474011], ["46th", -0.05027436971609559], ["national", -0.039735908059586204], ["is", -0.035204840826975205], ["Context", 0.029002474237340377], ["Statement", 0.020307294683313656], ["info", 0.018197451032287426]], 1, exp_div);
+                exp.show([["tweet", 0.16148420524219648], ["singapore", -0.10505299772781576], ["university", -0.06338124339856428], ["of", -0.06155377243072873], ["46th", -0.0510332698723077], ["national", -0.04190997159994926], ["Context", 0.0357966842041984], ["inaugurated", -0.03577006630355189], ["info", 0.020371039848372262], ["Statement", 0.019292686606090993]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["tweet", 160, 0.15756409706398128], ["singapore", 115, -0.10437633390783253], ["singapore", 138, -0.10437633390783253], ["university", 101, -0.0602480373974443], ["of", 112, -0.06006218706474011], ["of", 226, -0.06006218706474011], ["46th", 211, -0.05027436971609559], ["national", 92, -0.039735908059586204], ["is", 67, -0.035204840826975205], ["Context", 149, 0.029002474237340377], ["Statement", 167, 0.020307294683313656], ["info", 132, 0.018197451032287426]], 1, "Subject: political; Speaker: yixiang; Speaker description: yixiang is a student studying in national university of singapore; State info: singapore; Context: a tweet; Statement: Joe Biden was inaugurated as the 46th President of the United States on January 20, 2021.", raw_div, true);
+            exp.show_raw_text([["tweet", 160, 0.16148420524219648], ["singapore", 115, -0.10505299772781576], ["singapore", 138, -0.10505299772781576], ["university", 101, -0.06338124339856428], ["of", 112, -0.06155377243072873], ["of", 226, -0.06155377243072873], ["46th", 211, -0.0510332698723077], ["national", 92, -0.04190997159994926], ["Context", 149, 0.0357966842041984], ["inaugurated", 192, -0.03577006630355189], ["info", 132, 0.020371039848372262], ["Statement", 167, 0.019292686606090993]], 1, "Subject: political; Speaker: yixiang; Speaker description: yixiang is a student studying in national university of singapore; State info: singapore; Context: a tweet; Statement: Joe Biden was inaugurated as the 46th President of the United States on January 20, 2021.", raw_div, true);
             
         </script>
         </body></html>
